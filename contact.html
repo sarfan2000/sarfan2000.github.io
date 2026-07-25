@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | SA Sarfan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">SA<span>Sarfan</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn-nav">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Get In <span class="accent">Touch</span></h1>
+      <p class="page-hero-sub">Available for freelance projects and full-time opportunities</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's work together</h3>
+          <p>Whether you need a web app, mobile app, or backend system — I'd love to hear about your project.</p>
+          <div class="contact-items">
+            <a href="tel:+94757046845" class="contact-item">
+              <i class="fas fa-phone"></i><span>+94 75 704 6845</span>
+            </a>
+            <a href="mailto:sarfan5577@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i><span>sarfan5577@gmail.com</span>
+            </a>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i><span>Kinniya, Sri Lanka</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/sarfan2000/" target="_blank" class="social-btn">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/sasarfan" target="_blank" class="social-btn">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm"
+              action="https://api.web3forms.com/submit"
+              method="POST">
+          <input type="hidden" name="access_key" value="af809114-0f88-4ff5-b3c7-c86b75a940df" />
+          <input type="hidden" name="subject" value="New message from your portfolio!" />
+          <input type="hidden" name="redirect" value="false" />
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 <strong>SA Sarfan</strong> · Full Stack Software Engineer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

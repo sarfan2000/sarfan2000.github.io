@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership Management System | SA Sarfan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">SA<span>Sarfan</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn-nav">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-breadcrumb"><a href="index.html">Home</a> / <a href="projects.html">Projects</a> / Membership Management System</p>
+      <div class="project-detail-header">
+        <div class="project-detail-icon"><i class="fas fa-id-card"></i></div>
+        <div>
+          <div class="project-meta" style="margin-bottom:0.6rem;">
+            <span class="project-type individual">Individual</span>
+          </div>
+          <h1>Membership Management <span class="accent">System</span></h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT DETAILS -->
+  <section class="section">
+    <div class="container">
+      <div class="project-detail-grid">
+
+        <!-- Left: Main Info -->
+        <div class="project-detail-main">
+
+          <div class="detail-block">
+            <h2><i class="fas fa-info-circle"></i> Project Overview</h2>
+            <p>
+              A comprehensive membership management platform designed to automate the full membership lifecycle for organizations. The system handles everything from new member registration with auto-generated IDs to membership card printing, event management, and annual renewals — replacing slow manual processes with a streamlined digital system.
+            </p>
+          </div>
+
+          <div class="detail-block">
+            <h2><i class="fas fa-bullseye"></i> Objectives</h2>
+            <ul class="detail-list">
+              <li>Automate membership ID generation to eliminate duplication errors</li>
+              <li>Create and print professional membership cards digitally</li>
+              <li>Manage member profiles, status, and renewal dates efficiently</li>
+              <li>Handle event registration and attendance tracking for members</li>
+              <li>Improve administrative efficiency with centralized data management</li>
+            </ul>
+          </div>
+
+          <div class="detail-block">
+            <h2><i class="fas fa-cogs"></i> Key Features</h2>
+            <div class="feature-grid">
+              <div class="feature-item">
+                <i class="fas fa-id-badge"></i>
+                <strong>Auto ID Generation</strong>
+                <span>Unique membership ID assigned automatically on registration</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-print"></i>
+                <strong>Card Printing</strong>
+                <span>Generate and print formatted membership cards</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-users-cog"></i>
+                <strong>User Management</strong>
+                <span>Full CRUD for member profiles and account details</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-calendar-alt"></i>
+                <strong>Event Management</strong>
+                <span>Create events and manage member participation</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-sync-alt"></i>
+                <strong>Renewal System</strong>
+                <span>Track expiry dates and process membership renewals</span>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-tachometer-alt"></i>
+                <strong>Admin Dashboard</strong>
+                <span>Central overview of all members and activities</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-block">
+            <h2><i class="fas fa-layer-group"></i> System Architecture</h2>
+            <ul class="detail-list">
+              <li><strong>Frontend:</strong> HTML, CSS, JavaScript for responsive UI and dynamic interactions</li>
+              <li><strong>Backend:</strong> PHP for server-side logic, form handling, and business rules</li>
+              <li><strong>Database:</strong> MySQL with relational tables for members, events, and renewals</li>
+              <li><strong>Card Generation:</strong> PHP-based PDF/print module for membership card output</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Right: Sidebar -->
+        <div class="project-detail-sidebar">
+
+          <div class="sidebar-card">
+            <h3><i class="fas fa-code"></i> Technologies Used</h3>
+            <div class="project-tags" style="margin-bottom:0;">
+              <span>PHP</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+
+          <div class="sidebar-card">
+            <h3><i class="fas fa-info"></i> Project Info</h3>
+            <ul class="sidebar-info-list">
+              <li><span>Type</span><strong>Individual Project</strong></li>
+              <li><span>Category</span><strong>Web Application</strong></li>
+              <li><span>Platform</span><strong>Web (Desktop)</strong></li>
+              <li><span>Status</span><strong class="status-complete">Completed</strong></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-card">
+            <h3><i class="fas fa-lightbulb"></i> Outcome</h3>
+            <p style="color:#4a5568; font-size:0.9rem; line-height:1.7;">
+              Significantly improved membership tracking and administrative efficiency. Eliminated manual ID conflicts and enabled professional card generation directly from the system.
+            </p>
+          </div>
+
+          <a href="projects.html" class="btn-outline" style="display:flex; justify-content:center;">
+            <i class="fas fa-arrow-left"></i> Back to Projects
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHER PROJECTS -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Other <span class="accent">Projects</span></h2>
+      <p class="section-sub">More things I've built</p>
+      <div class="projects-grid">
+        <div class="project-card" onclick="window.location.href='project-service-center.html'" style="cursor:pointer;">
+          <div class="project-icon"><i class="fas fa-car"></i></div>
+          <div class="project-meta"><span class="project-type individual">Individual</span><span class="project-year">2025</span></div>
+          <h3>Service Center Management System</h3>
+          <div class="project-tags"><span>React.js</span><span>Node.js</span><span>MongoDB</span></div>
+          <div class="project-view-link">View Details <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="project-card" onclick="window.location.href='project-management.html'" style="cursor:pointer;">
+          <div class="project-icon"><i class="fas fa-tasks"></i></div>
+          <div class="project-meta"><span class="project-type group">Group</span><span class="project-year">2025</span></div>
+          <h3>Project Management Platform</h3>
+          <div class="project-tags"><span>TypeScript</span><span>Node.js</span><span>MongoDB</span></div>
+          <div class="project-view-link">View Details <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="project-card" onclick="window.location.href='project-hunt-rent.html'" style="cursor:pointer;">
+          <div class="project-icon"><i class="fas fa-store"></i></div>
+          <div class="project-meta"><span class="project-type individual">Individual</span></div>
+          <h3>Hunt and Rent Platform</h3>
+          <div class="project-tags"><span>Python (Flask)</span><span>Firebase</span></div>
+          <div class="project-view-link">View Details <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 <strong>SA Sarfan</strong> · Full Stack Software Engineer</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
