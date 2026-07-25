@@ -406,6 +406,19 @@
   </footer>
 
   <script src="script.js"></script>
+
+   <!-- Monetag Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/portfolio/sw.js')
+        .then(function (registration) {
+          console.log('Monetag Service Worker registered:', registration);
+        })
+        .catch(function (error) {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+  </script>
 </body>
 
 </html>
